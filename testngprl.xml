@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite1" verbose="1" >
+  
+ <test name="prl"  parallel="methods" >
+    <classes>
+      <class name="testngpack.Prltest1"/>
+      
+    </classes>
+  </test>
+</suite>

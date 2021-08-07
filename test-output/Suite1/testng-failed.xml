@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test thread-count="5" name="prl(failed)" parallel="methods">
+    <classes>
+      <class name="testngpack.Prltest1">
+        <methods>
+          <include name="amzon"/>
+        </methods>
+      </class> <!-- testngpack.Prltest1 -->
+    </classes>
+  </test> <!-- prl(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
